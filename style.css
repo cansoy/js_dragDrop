@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    margin: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 98);
+    margin: 10px;  
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px; 
+    cursor: pointer;
+}
+
+.hold{
+    background-color: aliceblue;
+    border: 1px solid rgb(0, 255, 98);
+    border-radius: 10%;
+}
+.invisible{
+    display: none;
+}
+.overon-me{
+    background-color: rgba(77, 77, 20, 0.8);
+}
